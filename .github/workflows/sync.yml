@@ -16,5 +16,5 @@ jobs:
         uses: litencatt/gallery-fake@v0.1.0
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
           MD_PATH: 'service/aaa/specifications'
