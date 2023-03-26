@@ -13,8 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Gallery Fake
-        uses: litencatt/gallery-fake@v0.2.0
+        uses: litencatt/gallery-fake@main
         env:
           NOTION_API_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DB_ID: ${{ secrets.NOTION_DATABASE_ID }}
-          GITHUB_MD_PATH: "${{ github.workspace }}/service/aaa/specifications"
+          GITHUB_MD_PATH: service/aaa/specifications
